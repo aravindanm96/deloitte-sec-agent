@@ -1,4 +1,4 @@
-
+pyarrow==14.0.2
 streamlit
 langchain
 langchain_aws
