@@ -2,8 +2,7 @@
 version: 1.0
 runtime: python3
 build:
-    - pip install --upgrade pip
-    - pip install -r requirements.txt
+  command: "pip install --upgrade pip && pip install -r requirements.txt"
 run:
   command: streamlit run Home.py --server.port $PORT 
   # Ensures the app binds to the port set by App Runner (default is 8080)
