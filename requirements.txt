@@ -4,4 +4,4 @@ langchain
 langchain_aws
 langchain_community
 pypdf
-faiss-cpu
+faiss-cpu==1.7.2
